@@ -20,7 +20,7 @@ def hangman():
             print("You win!")
             break
 
-        print("Guess the word:" , main)
+        print("Guess the word: " , main)
         guess = input()
 
         if guess in validLetters:
